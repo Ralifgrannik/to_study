@@ -9,16 +9,46 @@ body {
     line-height: 31px;
 }
 
+
+.img-photo {
+    display: block;
+    margin: 40px 0px;
+}
+
+.container {
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-container {
+    width: 1520px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+br {
+    margin: 100px;
+}
+
 h1 {
     font-family: "Inter", sans-serif;
+    width: 561px;
     font-optical-sizing: auto;
-    font-weight: 900;
+    font-weight: 800;
     font-style: normal;
     font-size: 200px;
     line-height: 242px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
 }
 
 h2 {
+    padding: 40px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
@@ -48,4 +78,119 @@ h2 {
     background-image: url(../img/planet_fon.png);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+.button_reg {
+    width: 396px;
+    min-height: 112px;
+    color: white;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: rgba(16, 45, 48, 1);
+    rgba(16, 45, 48, 1)
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-family: "Inter";
+    font-size: 70px; 
+    font-weight: 700; 
+    line-height: 31px;
+    margin: 0 0 0 160px;
+}
+
+.quote {
+    width: 1660px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 1740px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-four {
+    width: 1061px;
+    min-height: 897px;
+}
+
+.kavkaz {
+    width: 1680px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-kavkaz {
+    width: 544px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.text-photo {
+    width: 616px;
+}
+
+.text-quote {
+    width: 405px;
+    min-height: 155px;
+    margin: 0 auto 40px;
+}
+
+.img-quote {
+    margin: 0 auto;
+    display: block;
+}
+
+.block-quote {
+    width: 475px;
+    min-height: 790px;
+}
+
+.ugvay {
+    width: 616px;
+    min-height: 240px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.kavkaz-photo {
+    width: 1000px;
+}
+
+.reg {
+    width: 1550px;
+    min-height: 750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reg-text {
+    width: 700px;
+    display: block;
+}
+
+.reg-text-desrition {
+    font-family: "IBM Plex Mono";
+    height: 195px; 
+    color: white; 
+    font-size: 50px; 
+    font-weight: 700; 
+    line-height: 65px;
+    margin-bottom: 170px;
+    margin-top: 30px;
+}
+
+.back-for-photo {
+    background-color: rgba(16, 19, 32, 1);
+}
+
+.back-for-reg {
+    background-color: rgba(15, 36, 35, 1);
 }
