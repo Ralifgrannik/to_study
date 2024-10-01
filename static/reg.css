@@ -24,19 +24,24 @@ p {
 
 .form-background {
     margin: 10px auto 150px;
-    width: 544px;
-    min-height: 497px;
+    width: 844px;
+    min-height: 620px;
     border-radius: 73px;
     background-color: rgba(7, 7, 7, 0.7);
-    display: flex;
+    display: block;
 }
 
 .form-block {
-    width: 324px;
-    margin: 80px 112px 30px;
+    width: 724px;
+    margin: 40px 50px 30px;
 }
 
-.autr {
+.name-number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reg {
     margin: 150px auto 0;
     width: 233px;
     min-height: 62px;
@@ -48,9 +53,9 @@ p {
 }
 
 .name {
+    width: 50%;
     display: block;
-    margin-bottom: 20px;
-    
+    margin: 60px 25px 20px;  
 }
 
 [type=text] {
@@ -71,14 +76,18 @@ p {
     
 }
 
-.password {
+.number {
+    width: 50%;
     display: block;
-    margin-bottom: 40px;
-    
+    margin: 60px 25px 20px;      
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
 
-[type="password"] {
+[type=number] {
     border: none;
     width: 284px;
     min-height: 63px;
@@ -95,18 +104,29 @@ p {
     padding: 0 20px;
 }
 
-a {
-    width: 298px;
+
+.password {
     display: block;
-    font-size: 16px; 
-    color: white;
-    margin: 70px auto 30px;
+    margin-bottom: 40px;
+    margin: 0 25px 20px;
+}
+
+[type=password] {
+    border: none;
+    width: 654px;
+    min-height: 63px;
+    border-radius: 34px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    background-color: rgba(217, 217, 217, 0.6);
 
     font-family: "IBM Plex Mono";
     color: white; 
     font-size: 16px; 
     font-weight: 700; 
     line-height: 21px;
+
+    padding: 0 20px;
 }
 
 .reg-button {
@@ -123,4 +143,27 @@ a {
     font-size: 32px; 
     font-weight: 700; 
     line-height: 31px;
+}
+
+.img-icon {
+    width: 76px;
+    height: 76px;
+
+}
+
+.link-icon {
+    text-decoration: none;
+}
+
+.list {
+    width: 303px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-block-link {
+    display: block;
+    width: 724px;
+    margin: 40px 50px 30px;
 }
