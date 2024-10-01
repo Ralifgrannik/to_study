@@ -15,8 +15,9 @@
     
 </head>
 <body>
-    <header class = 'header-container'>        
+    <header class = 'header-container' id="header">        
         <ul class="ul-1">
+            <li></li>
             <li>
                 <a href="tel: 89375983370" class = "header-text-link">
                     <img src="./img/Rectangle.png" alt="Rectangle">
@@ -33,21 +34,28 @@
         <img width="144" height="107" src="img/logo.png" alt="logo">
         <nav>
             <ul class="ul-2">
-                <li class="li-1-1"><a href="#" class = "header-text-with">Цитаты</a></li>
-                <li class="li-1"><a href="#" class = "header-text-with">Фотки</a></li>
-                <li class="li-1"><a href="#" class = "header-text-with">Кавказ</a></li>
+                <li class="li-1-1"><a href="#quote" class = "header-text-with">Цитаты</a></li>
+                <li class="li-1"><a href="#photo" class = "header-text-with">Фотки</a></li>
+                <li class="li-1"><a href="#kavkaz" class = "header-text-with">Кавказ</a></li>
+            </ul>
+            <ul class="ul-3">
+                <li class="li-3"><a href="#reg" class = "header-text-with">Регистрация</a></li>
+                <li class="li-3"><a href="#meme" class = "header-text-with">Мемы</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class = "First-page">
+        <section class = "First-page" id="First-page">
             <div" class="container">
                 <h1>МОЙ БЛОГ</h1>
                 <img class = "img-photo" src="img/H1_photo.png" alt="My_blog_photo">
             </div>
         </section>
-        <section>    
-            <h2>>ЦИТАТЫ</h2>
+        <section id = "quote">   
+            <div class="page-back"> 
+                <h2>>ЦИТАТЫ</h2>
+                <button class="back-2"><a href="#header" alt = "back" class="back-button">Вернуться в начало</a></button>
+            </div>
             <div class="quote">
                 <div class="block-quote">
                     <p class="text-quote">Нельзя войти в чью-то жизнь, позволить привязаться, а потом умереть. Я остаюсь умирать вместе с тобой. Вопрос закрыт.</p>
@@ -63,8 +71,11 @@
                 </div>
             <div>
         </section>
-        <section class="back-for-photo">
-            <h2>>ФОТКИ</h2>
+        <section class="back-for-photo" id = "photo">
+            <div class="page-back">
+                <h2>>ФОТКИ</h2>
+                <button class="back-1"><a href="#header" alt = "back" class="back-button">Вернуться в начало</a></button>
+            </div>
             <div class="photo">
                 <p class="ugvay">«Тебя слишком занимает, что было и то, что будет... <br><br>
 
@@ -78,8 +89,11 @@
             </div>
         </section>
 
-        <section>
-            <h2>>КАВКАЗ</h2>
+        <section id = "kavkaz">
+            <div class="page-back">
+                <h2>>КАВКАЗ</h2>
+                <button class="back-2"><a href="#header" alt = "back" class="back-button">Вернуться в начало</a></button>
+            </div>
             <div class="kavkaz">
                 <p class="text-kavkaz">Мы часто ссылаемся на судьбу, которая как будто бы что-то за нас решила, но правда в том, что мы сами выбираем, жить ли в мире иллюзий, рождённых нашими обидами и ошибками, или оставить прошлое и двигаться вперёд.<br><br>
                 Каждый день жизнь даёт нам тысячи разных возможностей: возможность измениться, возможность начать всё сначала или возможность проявить себя с другой стороны и открыть новые таланты. Главное — не упускать эти возможности, ведь может получиться так, что второго шанса судьба не даст.</p>
@@ -97,9 +111,12 @@
             </div>
         </section>
 
-        <section class="back-for-reg">
-            <h2>РЕГИСТРАЦИЯ</h2>
-            <div class="reg">
+        <section id="reg" class="back-for-reg">
+            <div class="page-back">
+                <h2>РЕГИСТРАЦИЯ</h2>
+                <button class="back-1"><a href="#header" alt = "back" class="back-button">Вернуться в начало</a></button>
+            </div>
+                <div class="reg">
                 <div class="reg-text">
                     <p class="reg-text-desrition">Зарегистрируйся и можно будет послушать мои демки</p>
                     <button type="button" class = "button_reg">Тыщ</button>
@@ -108,8 +125,11 @@
             </div>
         </section>
 
-        <section>
-            <h2>Мемы</h2>
+        <section id = "meme">
+            <div class="page-back">
+                <h2>МЕМЫ</h2>
+                <button class="back"><a href="#header" alt = "back" class="back-button">Вернуться в начало</a></button>
+            </div>
             <div class="video">
                 <video controls width="450">
                     <source src="video/meme1.MP4">

@@ -50,13 +50,19 @@ h1 {
 .ul-1 {
     display: flex;
     justify-content: space-between;
-    width: 475px;
+    width: 575px;
 }
 
 .ul-2 {
     display: flex;
-    justify-content: space-between;
     width: 575px;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.ul-3 {
+    display: flex;
+    gap: 30px;
 }
 
 h2 {
@@ -82,7 +88,6 @@ h2 {
 }
 
 .header-text-with {
-    display: block;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -96,14 +101,19 @@ h2 {
 
 .li-1 {
     display: flex;
-    width: 160px;
+    /*width: 160px;*/
 }
 
 .li-1-1 {
     display: flex;
-    width: 160px;
-    margin-right: 25px;
+    /*width: 160px;
+    margin-right: 23px;*/
 }
+
+.li-3 {
+    display: inline-flex
+}
+
 
 
 .header-text-link {
@@ -239,8 +249,83 @@ h2 {
 }
 
 .video {
-    margin-left: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
+}
+
+.back {
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: rgba(16, 45, 48, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Inter";
+    font-size: 30px; 
+    font-weight: 700; 
+    line-height: 31px;
+    margin: 50px 50px 0 0;
+    border-radius: 40px;
+    border-style: none;
+}
+
+.back-1 {
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Inter";
+    font-size: 30px; 
+    font-weight: 700; 
+    line-height: 31px;
+    margin: 50px 50px 0 0;
+    border-radius: 40px;
+    border-style: none;
+}
+
+.back-2 {
+    width: 250px;
+    height: 90px;
+    color: white;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: rgba(16, 19, 32, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Inter";
+    font-size: 30px; 
+    font-weight: 700; 
+    line-height: 31px;
+    margin: 50px 50px 0 0;
+    border-radius: 40px;
+    border-style: none;
+}
+
+
+
+.back-button {
+    text-decoration: none;
+    color: white;
+}
+
+.page-back {
+    display: flex;
+    justify-content: space-between;
 }
